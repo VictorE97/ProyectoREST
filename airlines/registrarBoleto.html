@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AirLines</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/styleform.css">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Cabin_400.font.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+</head>
+<body id="page1">
+<div class="main">
+  <!--header -->
+  <header>
+    <div class="wrapper">
+      <h1><a href="index.html" id="logo">AirLines</a></h1>
+      <span id="slogan">Vuelos Seguros</span>
+      <nav id="top_nav">
+        <ul>
+          <li><a href="index.html" class="nav1">Incio</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li id="menu_active"><a href="index.html"><span><span>Principal</span></span></a></li>
+        <li><a href="Pasajeros.php"><span><span>Pasajeros</span></span></a></li>
+        <li><a href="Aviones.php"><span><span>Aviones</span></span></a></li>
+        <li><a href="Vuelos.php"><span><span>Vuelos</span></span></a></li>
+        <li><a href="Boletos.php"><span><span>Comprar Boleto</span></span></a></li>
+        <li class="end"><a href="contacts.html"><span><span>Contacts</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- / header -->
+  <!--content -->
+  <section id="content">
+            <form class="form-register" action="registrarBoleto.php" method="post">
+           <h1>Registrar Boleto</h1>
+            <input class="controls" type="text" name="fecha" id="fecha" placeholder="Ingrese la fecha">
+            <input class="controls" type="text" name="origen" id="origen" placeholder="Ingrese el origen">
+            <input class="controls" type="text" name="destino" id="destino" placeholder="Ingrese destino">
+            <input class="controls" type="text" name="asiento" id="asiento" placeholder="Ingrese # de asiento">
+            <input class="controls" type="text" name="pago" id="pago" placeholder="Ingrese pago"> <br>
+            <input class="botons" type="submit" value="Registrar">
+        </form>
+  </section>
+  
+  <footer>
+    <div class="wrapper">
+      <ul id="icons">
+        <li><a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon4.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon5.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon6.jpg" alt=""></a></li>
+      </ul>
+      <div>
+          <h4>Victor Emmanuel Baizabal Rivera</h4>
+      </div>
+    </div>
+  </footer>
+  
+</div>
+</body>
+</html>
